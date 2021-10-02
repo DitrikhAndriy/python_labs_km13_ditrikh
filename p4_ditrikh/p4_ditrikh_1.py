@@ -2,7 +2,7 @@ while 1:
     name = input("Enter your name: ")
     surname = input ("Enter your surname: ")
     phone_number = input("Enter your phone number: ")
-    street = input("Enter the name of your streetr: ")
+    street = input("Enter the name of your street: ")
     street_number = input("Enter your street number: ")
     apartment_number = input("Enter your apartment number: ")
     city = input("Enter the name of your city: ")
