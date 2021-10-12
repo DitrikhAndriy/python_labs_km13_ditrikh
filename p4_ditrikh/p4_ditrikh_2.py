@@ -25,3 +25,4 @@ while 1:
         continue
     else:
         print("Work completed")
+        break
