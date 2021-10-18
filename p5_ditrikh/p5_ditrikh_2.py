@@ -3,7 +3,7 @@ while 1:
     list1 = list()
     while 1:
         element = input()
-        if element.lower() == "stop":
+        if element.upper() == "STOP":
             break
         list1.append(element)
 
