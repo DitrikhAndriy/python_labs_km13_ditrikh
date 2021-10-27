@@ -28,7 +28,7 @@ def work():
                 raise ValueError
             sqrt_D = math.sqrt(D)
         except ValueError:
-            print("Помилка! Рівняння не має розв'язків (D<0)")
+            print("Помилка! Рівняння не має розв'язків, D =", D,"(D<0)")
             continue
 
 
@@ -43,6 +43,8 @@ def work():
             if b != 0:
                 x = -c/b
                 print("\nx = {}".format(x))
+            elif b == 0:
+                print("\nx є R")
             else:
                 print("Помилка! Ділення на 0 (a=0)")
         finally:
