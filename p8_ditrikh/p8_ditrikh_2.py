@@ -24,8 +24,6 @@ def work():
     
         try:
             D = b**2 - 4*a*c
-            if D < 0:
-                raise ValueError
             sqrt_D = math.sqrt(D)
         except ValueError:
             print("Помилка! Рівняння не має розв'язків, D =", D,"(D<0)")
