@@ -1,5 +1,3 @@
-from collections import Counter
-
 files = []
 for i in range(1880, 2020):
     files.append(f"yob{str(i)}.txt")
