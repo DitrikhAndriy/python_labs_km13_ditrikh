@@ -22,13 +22,14 @@ def add(list):
 print("Программа підрахунку визначника матриці методом перестановки")
 print("-"*60)
 while 1:
-    try:
+    while 1:
         dimension = int(input("Введіть розмірність матриці: "))
-        matrix = random_matrix(dimension)
-        if dimension < 0:
-            raise Exception
-    except:
-        print("Розмір матриці повинен бути натуральним числом")
+        if dimension <= 0:
+            print("Розмір матриці повинен бути натуральним числом")
+            continue
+        break
+
+    matrix = random_matrix(dimension)
 
     det = add(multiplication(permutation(dimension)))
 
