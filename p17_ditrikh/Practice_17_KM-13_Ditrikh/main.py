@@ -128,7 +128,7 @@ def main():
         while 1:
             try:
                 n = float(input("Введіть число, корінь якого буде знайдено: "))
-                if pick == 2 and n < 0:
+                if pick == 1 and n < 0:
                     print("Значення не може бути від'ємним. Спробуйте ще раз")
                     continue
                 break
